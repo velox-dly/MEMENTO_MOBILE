@@ -1,6 +1,7 @@
 <p align="center" width="100%">
     <img width="33%" src="https://github.com/user-attachments/assets/eaf30e6c-e8e7-4293-a5f7-a6bfa4035d16">
 </p>
+
 # 📱 Memento (Mobile Version) – Debt Management App
 
 **Memento** is a simple mobile-based debt management app designed for small retail businesses such as *Sari-Sari* stores. Built for Android using local storage, this version offers a more accessible and portable way for store owners to manage their customer debts — even without an internet connection.
