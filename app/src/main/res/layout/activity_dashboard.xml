@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgyappie_final"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="70dp">
+
+            <TextView
+                android:id="@+id/tvUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:text="Hello, Shiwanibebes!"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tvStoreName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Leodios Sari-sari"
+                android:textColor="#9A9A9A"
+                android:layout_marginTop="6dp"
+                android:layout_below="@+id/tvUserName"/>
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+
+                android:src="@drawable/memento_profilez"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <GridLayout
+            android:id="@+id/glIcons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnOrderPreserved="false"
+            android:alignmentMode="alignMargins"
+            android:rowCount="2"
+            android:columnCount="2"
+            android:layout_marginTop="100dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingBottom="40dp"
+            android:paddingTop="40dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvAddDebtor"
+                android:layout_width="wrap_content"
+                android:layout_height="175dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginRight="10dp"
+                android:foreground="@drawable/effect2"
+                android:clickable="true"
+                android:backgroundTint="#f5f5fd">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/adduser"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Add Debtor"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="12dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvEditRec"
+                android:layout_width="wrap_content"
+                android:layout_height="175dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="10dp"
+                android:foreground="@drawable/effect2"
+                android:clickable="true"
+                android:backgroundTint="#f5f5fd">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/editrec"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Edit Record"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="12dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvList"
+                android:layout_width="wrap_content"
+                android:layout_height="175dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginRight="10dp"
+                android:foreground="@drawable/effect2"
+                android:clickable="true"
+                android:backgroundTint="#f5f5fd">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+                        android:src="@drawable/ic_list"/>
+
+                    <TextView
+                        android:layout_width="99dp"
+                        android:layout_height="wrap_content"
+                        android:text="List of Debtors"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvDevelopers"
+                android:layout_width="wrap_content"
+                android:layout_height="175dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="10dp"
+                android:foreground="@drawable/effect2"
+                android:clickable="true"
+                android:backgroundTint="#f5f5fd">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/dev" />
+
+                    <TextView
+                        android:layout_width="99dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="About Developers"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
