@@ -29,9 +29,11 @@ This mobile version brings the same core concept from the original web-based sys
 - @nikki  
 
 ## Sample Screenshots
-<img src="https://github.com/user-attachments/assets/87a716e8-a898-431f-adf3-1fd0ad418493" width="300" />
-<img src="https://github.com/user-attachments/assets/bcc22ea2-f94b-4611-87c8-89a8af1b73bc" width="300" />
-<img src="https://github.com/user-attachments/assets/ae4495ac-0293-4b10-9635-115b83665865" width="300" />
+<p align="center" width="100%">
+    <img src="https://github.com/user-attachments/assets/87a716e8-a898-431f-adf3-1fd0ad418493" width="300" />
+    <img src="https://github.com/user-attachments/assets/bcc22ea2-f94b-4611-87c8-89a8af1b73bc" width="300" />
+    <img src="https://github.com/user-attachments/assets/ae4495ac-0293-4b10-9635-115b83665865" width="300" />
+</p>
 
 
 ## 📌 **Note**
